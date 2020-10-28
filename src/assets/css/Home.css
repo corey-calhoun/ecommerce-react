@@ -1,6 +1,12 @@
 .home {
-    height: 150px;
+    
+}
+
+.home__image {
+    height: 350px;
     width: 100%;
-    background-color: tomato;
-    position: relative;
+    object-fit: cover;
+    z-index: -1;
+    margin-bottom: -150px;
+    mask-image: linear-gradient(to bottom rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }

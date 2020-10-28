@@ -1,9 +1,12 @@
-import { ShoppingCartOutlined } from '@material-ui/icons'
-import SearchBar from 'material-ui-search-bar'
 import React from 'react'
 import './../assets/css/Header.css'
 
+// icons and components
+import { ShoppingCartOutlined } from '@material-ui/icons'
+import SearchBar from 'material-ui-search-bar'
 import logo from '../assets/img/amazon-logo.png'
+
+
 function Header() {
     return (
         <div className='header'>
