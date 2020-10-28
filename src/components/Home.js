@@ -16,10 +16,10 @@ function Home() {
                 
                 <div className="home__row">
                     <Product 
-                    //  title={this.title}
-                    //  image={this.image}
-                    //  price={this.price}
-                    //  rating={this.rating}
+                     title='Phillips Sonicare Electriic Toothbrush'
+                    image='https://m.media-amazon.com/images/I/51qX1PpW4fL._AC_SY480_.jpg'
+                     price={39.99}
+                     rating={4}
                     />
                     <Product />
                     

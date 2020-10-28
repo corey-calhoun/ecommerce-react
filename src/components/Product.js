@@ -1,24 +1,34 @@
 import { Button } from '@material-ui/core'
+import { StarRate } from '@material-ui/icons'
 import React from 'react'
 import '../assets/css/Product.css'
 
-function Product({title, image, price, rating}) {
+function Product({id,title, image, price, rating}) {
     return (
         <div className="product">
             <div className="product__container">
                 <img 
                     className="product__image"
-                    src="https://m.media-amazon.com/images/I/51qX1PpW4fL._AC_SY480_.jpg"
+                    src={image}
                     alt=""
                 />
                 <div className="product__info">
-                    <h3>Product Title</h3>
+                    <h3>{title}</h3>
                     <div className="product__price">
                         <small>$</small>
-                        <strong>19.99</strong>
+                        <strong>{price}</strong>
                     </div>
+                    {Array(rating)
+                        .fill()
+                        .map((_, i) => (
+                            <StarRate 
+                             className="product__rating"
+                             size="small"
+                            />
+                        ))}
                     
                 </div>
+                
                 <Button
                     className="product__button"
                     size="small"
