@@ -13,7 +13,7 @@ function Product({id,title, image, price, rating}) {
                     alt=""
                 />
                 <div className="product__info">
-                    <h3>{title}</h3>
+                    <h5>{title}</h5>
                     <div className="product__price">
                         <small>$</small>
                         <strong>{price}</strong>

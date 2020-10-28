@@ -5,8 +5,8 @@
     justify-content: flex-end;
     margin: 10px;
     padding: 20px;
-    width: 85%;
     max-height: 400px;
+    min-width: 100px;
     max-width: 600px;
     background-color: #fff;
     z-index: 1;
@@ -22,7 +22,7 @@
 }
 
 .product__info {
-    height: 50px;
+    height: 100px;
     margin-bottom: 15px;
 }
 
@@ -32,4 +32,9 @@
 
 .product__rating {
     display: flex;
+    padding-bottom: 5px;
+}
+
+.product__button {
+    margin-top: 15px;
 }
