@@ -15,7 +15,12 @@ function Home() {
                 />
                 
                 <div className="home__row">
-                    <Product />
+                    <Product 
+                    //  title={this.title}
+                    //  image={this.image}
+                    //  price={this.price}
+                    //  rating={this.rating}
+                    />
                     <Product />
                     
                     

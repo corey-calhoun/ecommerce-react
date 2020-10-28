@@ -2,7 +2,7 @@ import { Button } from '@material-ui/core'
 import React from 'react'
 import '../assets/css/Product.css'
 
-function Product(title, price) {
+function Product({title, image, price, rating}) {
     return (
         <div className="product">
             <div className="product__container">
