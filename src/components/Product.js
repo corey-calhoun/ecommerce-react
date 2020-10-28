@@ -14,7 +14,6 @@ function Product(title, price) {
                 <div className="product__info">
                     <h3>Product Title</h3>
                     <div className="product__price">
-                        <h4>Product Price</h4>
                         <small>$</small>
                         <strong>19.99</strong>
                     </div>
