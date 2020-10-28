@@ -2,13 +2,13 @@
     height: 75px;
     width: 100vw;
     display: flex;
-    background-color: steelblue;
+    background-color: #012d63;
     align-items: center;
     justify-content: space-between;
     position: sticky top;
     z-index: 100;
     top: 0;
-    
+    color: #fff;
 }
     
 .header__logo {
@@ -30,6 +30,7 @@
 
 .header__options {
     display: flex;
+    align-items: center;
 }
 
 .header__option {
@@ -37,6 +38,7 @@
     flex-direction: column;
     min-width: 55px !important;
     margin-right: 10px;
+    border-right: 1px solid lightblue;
 }
 
 .header__optionLineOne {
@@ -45,22 +47,4 @@
 
 .header__optionLineTwo {
     font-weight: 700;
-}
-
-.header__avatar {
-    margin-right: 10px;
-}
-
-.header__avatar:hover {
-    cursor: pointer;
-}
-
-.header__username {
-    font-weight: 400;
-    font-size: 18px;
-    color: #fff;
-}
-
-.header__username:hover {
-    cursor: pointer;
 }

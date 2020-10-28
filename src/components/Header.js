@@ -1,4 +1,4 @@
-import { Avatar } from '@material-ui/core'
+import { ShoppingCartOutlined } from '@material-ui/icons'
 import SearchBar from 'material-ui-search-bar'
 import React from 'react'
 import './../assets/css/Header.css'
@@ -31,10 +31,9 @@ function Header() {
                         <span className="header__optionLineOne">Your </span>
                         <span className="header__optionLineTwo">Prime</span>
                     </div>
-                    
                     <div className="header__option">
-                        <Avatar 
-                         className="header__avatar"
+                        <ShoppingCartOutlined
+                            
                         />
                     </div>
                 </div>
