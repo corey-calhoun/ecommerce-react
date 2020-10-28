@@ -1,6 +1,6 @@
 import './assets/css/App.css';
 import Header from './components/Header';
-import Hero from './components/Hero';
+import Home from './components/Home';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
 
 
 
-      <Hero />
+      <Home />
 
 
 
