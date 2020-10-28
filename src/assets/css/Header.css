@@ -2,12 +2,43 @@
     height: 75px;
     width: 100vw;
     display: flex;
-    background-color: darkgray;
+    background-color: steelblue;
     align-items: center;
+    justify-content: space-between;
+    
 }
     
     .header__logo {
         object-fit: contain;
         margin-left: 20px;
-        padding: 10px;
+        padding: 20px;
+        max-height: 75px;
+    }
+
+    .header__logo:hover {
+        cursor: pointer;
+    }
+
+    .header__right {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header__avatar {
+        margin-right: 10px;
+    }
+
+    .header__avatar:hover {
+        cursor: pointer;
+    }
+
+    .header__username {
+        font-weight: 400;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .header__username:hover {
+        cursor: pointer;
     }

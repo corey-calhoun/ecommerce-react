@@ -1,3 +1,5 @@
+import { Avatar } from '@material-ui/core'
+import { ArrowDropDownOutlined } from '@material-ui/icons'
 import SearchBar from 'material-ui-search-bar'
 import React from 'react'
 import './../assets/css/Header.css'
@@ -15,6 +17,13 @@ function Header() {
                  onChange={(newValue) => this.setState({ value: newValue })}
                  onRequestSearch={() => (this.state.value)}
                 />
+            </div>
+            <div className="header__right">
+                <Avatar 
+                    className="header__avatar"
+                />
+                <h2 className="header__username">Username</h2>    
+                <ArrowDropDownOutlined />            
             </div>
             
         </div>
