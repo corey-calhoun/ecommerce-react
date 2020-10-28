@@ -2,12 +2,14 @@ import { ShoppingCartOutlined } from '@material-ui/icons'
 import SearchBar from 'material-ui-search-bar'
 import React from 'react'
 import './../assets/css/Header.css'
+
+import logo from '../assets/img/amazon-logo.png'
 function Header() {
     return (
         <div className='header'>
             <img 
              className="header__logo"
-             src="https://image-placeholder.com/images/actual-size/120x90.png"
+             src={logo}
              alt=""
             />
             <div className="header__searchContainer">
@@ -18,27 +20,22 @@ function Header() {
                 />
             </div>
             <div className="header__right">
-                <div className="header__options">
-                    <div className="header__option">
-                        <span className="header__optionLineOne">Hello </span>
-                        <span className="header__optionLineTwo">Sign In</span>
-                    </div>
-                    <div className="header__option">
-                        <span className="header__optionLineOne">Returns </span>
-                        <span className="header__optionLineTwo">& Orders</span>
-                    </div>
-                    <div className="header__option">
-                        <span className="header__optionLineOne">Your </span>
-                        <span className="header__optionLineTwo">Prime</span>
-                    </div>
-                    <div className="header__option">
-                        <ShoppingCartOutlined
-                            
-                        />
-                    </div>
+                <div className="optionOne">
+                    <span className="header__optionLineOne">Hello </span>
+                    <span className="header__optionLineTwo">Sign In</span>
                 </div>
-                
-                            
+                <div className="optionTwo">
+                    <span className="header__optionLineOne">Returns </span>
+                    <span className="header__optionLineTwo">& Orders</span>
+                </div>
+                <div className="optionThree">
+                    <span className="header__optionLineOne">Your </span>
+                    <span className="header__optionLineTwo">Prime</span>
+                </div>
+                <div className="optionBasket">
+                    <ShoppingCartOutlined className="optionLineOne"/>
+                    <span className="header__optionLineTwo basket__count">0</span>
+                </div>      
             </div>
             
         </div>
