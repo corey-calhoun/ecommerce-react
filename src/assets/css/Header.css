@@ -5,6 +5,9 @@
     background-color: steelblue;
     align-items: center;
     justify-content: space-between;
+    position: sticky top;
+    z-index: 100;
+    top: 0;
     
 }
     
