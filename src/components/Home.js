@@ -40,7 +40,7 @@ function Home() {
 
                     />
                     <Product 
-                     title="Yootech 2 in 1 Metal Wireless Charger, 10W Max Wireless Charging Stand with QC3.0 Adapter, Compatible with Galaxy Watch 42mm/46mm/Active2/1,Gear S3/S2/Sport,Galaxy S20/S10/S9/S8/Note10[Not for iWatch]"
+                     title="Yootech 2 in 1 Metal Wireless Charger, 10W Max Wireless Charging Stand with QC3.0 Adapter"
                      image="https://images-na.ssl-images-amazon.com/images/I/71maE2pbE1L._AC_UL200_SR150,200_.jpg"
                      price={39.99}
                      rating={4}
