@@ -1,5 +1,5 @@
 import { Button } from '@material-ui/core'
-import { StarRate } from '@material-ui/icons'
+import { Star } from '@material-ui/icons'
 import React from 'react'
 import '../assets/css/Product.css'
 import { useStateValue } from './StateProvider'
@@ -40,7 +40,7 @@ function Product({id, title, image, price, rating}) {
                     {Array(rating)
                         .fill()
                         .map((_, i) => (
-                            <StarRate 
+                            <Star 
                              className="product__rating"
                              size="small"
                             />

@@ -1,3 +1,8 @@
+.checkoutProductList {
+    margin-top: 25px;
+    max-width: 500px;
+}
+
 .checkoutProduct__image {
     max-height: 100px;
 }

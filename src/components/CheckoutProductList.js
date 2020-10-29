@@ -1,5 +1,5 @@
 import { Button } from '@material-ui/core';
-import { StarBorderOutlined } from '@material-ui/icons';
+import { Star} from '@material-ui/icons';
 import React from 'react';
 import '../assets/css/CheckoutProductList.css'
 import { useStateValue} from './StateProvider'
@@ -32,11 +32,17 @@ function CheckoutProductList({ id, title, image, price, rating, hideButton }) {
                     {Array(rating)
                     .fill()
                     .map((_, i) => (
-                        <StarBorderOutlined />
+                        <Star />
                     ))}
                 </div>
                 {!hideButton && (
-                    <Button onClick={removeFromBasket}>Remove from Basket</Button>
+                    <Button 
+                        className="checkoutProduct__removeButton"
+                        variant="contained"
+                        size="medium"
+                        color="secondary"
+                        onClick={removeFromBasket}
+                    >Remove from Basket</Button>
                 )}
             </div>
         </div>
