@@ -6,9 +6,12 @@ import { ShoppingCartOutlined } from '@material-ui/icons'
 import SearchBar from 'material-ui-search-bar'
 import logo from '../assets/img/amazon-logo.png'
 import { Link } from  'react-router-dom'
+import { useStateValue } from './StateProvider'
 
 
 function Header() {
+    const [{basket, user}, dispatch] = useStateValue();
+
     return (
         <div className='header'>
             <Link to="/ ">
@@ -48,7 +51,7 @@ function Header() {
                 <Link to="/checkout">
                     <div className="optionBasket">
                     <ShoppingCartOutlined className="optionLineOne"/>
-                    <span className="header__optionLineTwo basket__count">0</span>
+                    <span className="header__optionLineTwo basket__count">{basket?.length}</span>
                 </div> 
                 </Link>
                      
