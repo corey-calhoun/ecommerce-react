@@ -2,19 +2,26 @@
     display: flex;
     margin-top: 25px;
     max-width: 800px;
+    border-bottom: 1px lightgray solid;
 }
 
 .checkoutProduct__info {
     padding-left: 20px;
 }
 
-
-.checkoutProduct__image {
-    width: 180px;
-    height: 180px;
-    object-fit: contain;
+.checkoutProduct__title {
+    font-weight: 800;
+    font-size: 16px;
 }
 
-.checkoutProductList__info > button {
+.checkoutProduct__image {
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+    padding-bottom: 10px;
+}
+
+.checkoutProduct__info > button {
     margin-top: 10px;
+    margin-bottom: 15px;
 }
