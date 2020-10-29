@@ -47,10 +47,10 @@ function Home() {
 
                     />
                     <Product 
-                     title=""
-                     image=""
-                     price=""
-                     rating={3}
+                     title="Sabrent 2TB Rocket NVMe 4.0 Gen4 PCIe M.2 Internal SSD Extreme Performance Solid State Drive (SB-ROCKET-NVMe4-2TB)"
+                     image="https://m.media-amazon.com/images/I/41VFjCUqGoL._AC_SY480_.jpg"
+                     price={299.98}
+                     rating={5}
 
                     />
                 </div>
