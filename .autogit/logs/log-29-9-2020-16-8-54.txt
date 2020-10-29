@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Thu Oct 29 2020 16:08:54 GMT-0500 (Central Daylight Time)
+------------------------------------------------------
+
+Modified files:
+* src/assets/css/CheckoutProductList.css
+* src/assets/css/Product.css
+
+
+Created files:
+* .autogit/logs/log-29-9-2020-15-16-10.txt
+
+
+Deleted files:
+
+
+Renamed files:
