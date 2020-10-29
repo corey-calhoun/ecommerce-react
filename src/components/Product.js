@@ -1,3 +1,4 @@
+import { Button } from '@material-ui/core';
 import { Star } from '@material-ui/icons'
 import React from 'react'
 import '../assets/css/Product.css'
@@ -39,7 +40,11 @@ function Product({id, title, image, price, rating}) {
                     ))}
                 </div>
             </div>
-            <button onClick={addToBasket}>Add to Basket</button>
+            <Button 
+                variant="contained"
+                color="secondary"
+                onClick={addToBasket}
+            >Add to Basket</Button>
         </div>
       );
     }
